@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Yelp API Widget</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/template" id="template-yelp">
+			<h2><a target="_target" href="<%= url %>"><%= name %></a></h2>
+			<h3 class="clearfix"><img src=<%= rating_img_url_large %> /><p><%= review_count %> review(s)</p></h3>
+			<h4>Phone: <%= phone %></h4>
+			<div class="review"><img src="<%= userAvatar %>" /> <h5><%= review %></h5></div>
+			<p class="more clearfix"><a target="_target" href="<%= url %>">More recommendation ...</a></p>
+		</script>
+	</head>
+	<body>
+		<div class="meng-widget">
+			<section id="mw-panel" class="mw-panel">
+				<div class="title">Best today ★</div>
+				<article></article>
+			</section>
+			<div id="mw-map" class="mw-map">
+				<a class="btn0" href="javascript:void();"></a>
+				<a class="btn1" href="javascript:void();"></a>
+				<a class="btn2" href="javascript:void();"></a>
+				<a class="btn3" href="javascript:void();"></a>
+				<a class="btn4" href="javascript:void();"></a>
+				<a class="btn5" href="javascript:void();"></a>
+				<a class="btn6" href="javascript:void();"></a>
+				<a class="btn7" href="javascript:void();"></a>
+				<a class="btn8" href="javascript:void();"></a>
+				<a class="btn9" href="javascript:void();"></a>
+				<a class="btn10" href="javascript:void();"></a>
+				<img src="res/map.png" />
+			</div>
+		</div>
+		<script src="lib/jquery-2.1.4.min.js"></script>
+		<script src="lib/underscore-min.js"></script>
+		<script src="app/main.js"></script>
+	</body>
+</html>

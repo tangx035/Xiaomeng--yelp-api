@@ -1,0 +1,45 @@
+body{overflow: hidden; background: #A7BBCA; padding: 0; margin: 0;}
+
+.clearfix {display: inline-block; vertical-align:top;}
+.ellipsis{text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+
+.meng-widget{font-family: sans-serif; position: relative; }
+.mw-panel{position: absolute; z-index: 3; width: 400px; height: 250px; left: 10px; top: 10px; border: solid 1px #CCC; background: #FFF; border-radius: 5px; color: #999; display: none;}
+.mw-panel .title{margin: 0; height: 30px; line-height: 30px; padding-left: 10px; background: #CCC; color: #000;}
+.mw-panel article{padding: 10px; }
+.mw-panel article h2{margin: 0;}
+.mw-panel article h2 a{color: #000; text-decoration: none;}
+.mw-panel article h3{margin: 10px 0 0 0;}
+.mw-panel article h3 p{float:right; width: 150px; margin: 0; margin-right: 60px; height: 30px; line-height: 30px;}
+.mw-panel article h4{margin: 10px 0 0 0;}
+.mw-panel article .review{margin: 10px 0 0 0;}
+.mw-panel article .review img {width: 50px; height: 50px;}
+.mw-panel article .review h5 {width: 320px; height: 100%; margin: 0; float: right;}
+.mw-panel article .more{margin: 10px 0 0 0;}
+.mw-panel article .more a {color: #666;}
+
+.mw-map{width:3508px; height: 2480px; position: relative;}
+.mw-map a{position: absolute; z-index: 2;}
+.mw-map .btn0{left:0px; top: 438px; width: 348px; height:368px;}
+.mw-map .btn0:hover{background: url('../res/b0.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn1{left:460px; top: 418px; width: 504px; height:414px;}
+.mw-map .btn1:hover{background: url('../res/b1.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn2{left:857px; top: 644px; width: 379px; height:337px;}
+.mw-map .btn2:hover{background: url('../res/b2.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn3{left:753px; top: 911px; width: 506px; height:401px;}
+.mw-map .btn3:hover{background: url('../res/b3.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn4{left:208px; top: 928px; width: 883px; height:570px;}
+.mw-map .btn4:hover{background: url('../res/b4.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn5{left:1716px; top: 425px; width: 241px; height:173px;}
+.mw-map .btn5:hover{background: url('../res/b5.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn6{left:1383px; top: 935px; width: 290px; height:321px;}
+.mw-map .btn6:hover{background: url('../res/b6.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn7{left:1653px; top: 1089px; width: 169px; height:225px;}
+.mw-map .btn7:hover{background: url('../res/b7.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn8{left:2308px; top: 572px; width: 318px; height:267px;}
+.mw-map .btn8:hover{background: url('../res/b8.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn9{left:2131px; top: 1096px; width: 119px; height:147px;}
+.mw-map .btn9:hover{background: url('../res/b9.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map .btn10{left:2867px; top: 2042px; width: 217px; height:280px;}
+.mw-map .btn10:hover{background: url('../res/b10.png') no-repeat 0 0; opacity: 0.5;}
+.mw-map img{width: 100%; height: 100%; position: absolute; z-index: 1; left: 0; top: 0;}
